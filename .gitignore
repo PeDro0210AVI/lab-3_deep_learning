@@ -2,3 +2,28 @@
 .direnv
 .virtual_documents
 
+# datasets and derived data (too large to version)
+data/raw/
+data/processed/
+data/own_photos/*.jpg
+data/own_photos/*.jpeg
+data/own_photos/*.png
+
+# trained model weights
+models/*.pt
+models/*.pth
+models/*.pkl
+models/*.joblib
+
+# kaggle credentials, just in case
+kaggle.json
+.kaggle/
+access_token
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+
